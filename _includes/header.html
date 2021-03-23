@@ -1,0 +1,10 @@
+<header>
+    <h1><a href="/">Robert E. West</a></h1>
+    <ul class="nav nav-pills nav-fill">
+      {% for nav_link in site.nav_links %}
+        <li class="nav-item">
+          <a class="nav-link" href="{{ nav_link.link }}" id="nav_{{ nav_link.id }}">{{ nav_link.name }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+</header>
