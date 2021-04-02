@@ -13,15 +13,15 @@ nav_links:
     link: "index.html"
 
 projects:
-  - title: "RaPID Photonics"
-    description: "The goal of RaPID Photonics was to create a photolithography prototyping device out of a standard Blu-ray drive, creating a photolithography equivalent to 3D printers."
-    link: "/rapid_photonics.html"
   - title: "UTS Routing"
     description: "UTS Routing uses real-time bus information from the University of Virginia to find the fastest route between two locations on grounds using the University Transportation System (UTS)."
     link: "/uts_routing.html"
     #  - title: "Dynamic Dijkstra"
     #    description: "Dynamic Dijkstra is an implementation of Dijkstra's algorithm that allows edge weights to change over time."
     #    link: "/dynamic_dijkstra.html"
+  - title: "RaPID Photonics"
+    description: "The goal of RaPID Photonics was to create a photolithography prototyping device out of a standard Blu-ray drive, creating a photolithography equivalent to 3D printers."
+    link: "/rapid_photonics.html"
   - title: "Identifying Malware with Machine Learning"
     description: "This project used a Decision Tree classifier to classify a set of programs as malware or goodware based on each program's sequence of API calls."
     link: "/malware_ml.html"
